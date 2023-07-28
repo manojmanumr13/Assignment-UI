@@ -20,7 +20,6 @@ export const App = () => {
     <Route exact path='/register' element={<Register/>}/>
     <Route exact path='/' element={<Login/>}/>
     <Route exact path='/student' element={<Student/>}/>
-    
     <Route exact path='/university' element={<University/>}/>
     <Route exact path='/puniversity' element={<PostUniveristy/>}/>
     <Route exact path='/pstudent' element={<PostStudent />}/>
