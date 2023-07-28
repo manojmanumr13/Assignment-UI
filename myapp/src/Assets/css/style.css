@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.auth-form{
+    font-family: monospace;
+    background-color: #f5f5f7;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.auth-data{
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-content: center;
+    justify-content: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    align-items:center ;
+    
+}
+.auth-input{
+    width: 70%;
+    border: none;
+    padding: 1rem;
+    background-color: #f5f5f7;
+    border-radius: 5px;
+    outline: none;
+}
+.auth-btn-group{
+    display: flex;
+    width: 80%;
+    gap: 0.5rem;
+}
+.auth-btn{
+    padding: .8rem;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+}
+.red-bg{
+background-color: red;
+}
+.green-bg{
+background-color: green;
+}
+.white-txt{
+color: #fff;
+}
+
+.main{
+    font-family: monospace;
+    background-color: #f5f5f7;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    overflow-x: hidden;
+}
+.table-data{
+
+    position: absolute;
+    top: 2rem;
+    padding: 1rem;
+    width: 50vw;
+    /* height: 100%; */
+    background-color: #fff;
+    border-collapse: collapse;
+    overflow-x: hidden;
+
+}
+thead,table{
+    border: 1px solid green;
+    /* border-radius: 15px !important; */
+}
+th,td{
+    padding: 0.5rem;
+    text-align: center;
+}
+tr{
+    border-bottom: 1px solid gray !important;
+}
+.table-btn{
+    padding: .2rem;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+}
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .auth-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .auth-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add space between the buttons */
+ .auth-btn {
+    margin-top: 10px;
+  }
+  
