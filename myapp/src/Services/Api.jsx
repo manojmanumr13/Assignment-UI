@@ -20,5 +20,4 @@ const getUniversityById=(universityID)=>axios.get(`http://localhost:8080/univers
 const userLogin=(data)=>axios.post(`http://localhost:8080/signin`,data,{headers})
 const userSignup = (data)=> axios.post(`http://localhost:8080/signup`,data,{headers})
 
-const hello="hello"
 export{userLogin,userSignup, getStudetById,getUniversityById, postStudent,postUniversity,getStudent,getUniversity,updateStudent,updateUniversity,deleteStudent,deleteUniversity}
